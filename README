@@ -22,17 +22,18 @@ then:
 
 and finally open `http://127.0.0.1:3000`.
 
-#### Or deploy to Stackato
+### Or deploy to Stackato
 
 Simply `stackato push -n`!
 
-
-Further reading on SSE:
+### Further reading on SSE:
 
 https://developer.mozilla.org/en-US/docs/Server-sent_events/Using_server-sent_events
 http://www.html5rocks.com/en/tutorials/eventsource/basics/
 
 Browser support: http://caniuse.com/eventsource
+
+CSS framework by [Gumby](http://gumbyframework.com/)
 
 
 
