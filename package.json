@@ -1,0 +1,26 @@
+{
+  "name": "sse-dash",
+  "version": "0.1.0",
+  "description": "Demo Aura.js application with SSE (Server Side Events)",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~3.3.3",
+    "feedparser": "~0.16.1",
+    "request": "~2.21.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "sse",
+    "aura",
+    "server",
+    "websockets",
+    "long",
+    "polling"
+  ],
+  "author": "Jamie Paton <jamie.paton@googlemail.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SSE Showcase</title>
+    <!-- build:css application.css -->
+    <link rel="stylesheet" href="/web/styles/main.css">
+    <!-- endbuild -->
+    <link rel="stylesheet" href="/web/styles/gumby/css/style.css">
+    <link rel="stylesheet" href="/web/styles/gumby/css/gumby.css">
+    <script data-main="web/app" src="/web/components/requirejs/require.js"></script>
+  </head>
+  <body class="grid">
+    <div class="row">
+      <div data-aura-widget="sse-peers"></div>
+    </div>
+    <br />
+    <div class="row">
+      <div class="six columns">
+        <div data-aura-widget="sse-feed"></div>
+      </div>
+      <div class="six columns">
+        <div data-aura-widget="sse-date"></div>
+      </div>
+    </div>
+  </body>
+</html>
