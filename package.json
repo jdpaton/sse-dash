@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Demo Aura.js application with SSE (Server Side Events)",
   "main": "server.js",
-  "repository": "https://github.com/jdpaton/sse-dash.git"
+  "repository": "https://github.com/jdpaton/sse-dash.git",
   "dependencies": {
     "express": "~3.3.3",
     "feedparser": "~0.16.1",

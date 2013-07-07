@@ -29,7 +29,9 @@ app.get('/stream/peers', function(req, res) {
     var peer_port = req.connection.remotePort;
 
     if (req.headers['x-real-ip']) {
-        peer_ip = req.headers['x-real-ip']
+        peer_ip = req.headers['x-real-ip'];
+    }else if( req.headers['x-forwarded-for']){
+        peer_ip = req.headers['x-forwarded-for'];
     };
 
     peer_ips.push([peer_ip, peer_port, req.headers['user-agent']]);
